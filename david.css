@@ -1,0 +1,74 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a: {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+	text-decoration: underline;
+}
+a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+#toc_container {
+	border: 1px solid #aaa;
+	display: table;
+	font-size: 95%;
+	margin-bottom: 1em;
+	margin-right: 20px;
+	padding: 20px;
+	width: auto;
+	float: left;
+	background-color: lightgrey;
+
+}
+
+.toc_title {
+	text-align: center;
+	font-weight: 700;
+}
+#toc_container li, #toc_container ol, #toc_container ol li{
+	list-style: outside none none !important;
+}
+
+.david1 {
+	height: 300px;
+	width: 250px;
+	float: right;
+	padding: 20px
+}
+
+.dirt {
+	height: 150px;
+	width: 165px;
+	float: right;
+	margin-right: 20px;
+	font-size: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  font-size: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.david2 {
+	height: 200px;
+	width:200px;
+	float: left;
+	margin-left: 15px;
+}
+h1 {
+	text-decoration: underline;
+}
